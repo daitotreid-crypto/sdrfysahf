@@ -1,0 +1,8 @@
+.env
+applications.db
+test_bot.py
+test_api.py
+check_telegram.py
+test_result.txt
+__pycache__/
+*.pyc
