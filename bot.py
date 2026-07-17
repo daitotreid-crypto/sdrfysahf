@@ -311,9 +311,7 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    # На Windows c Python 3.14+ необходимо явно создать event loop
-    if sys.platform == "win32":
-        loop = asyncio.new_event_loop()
-        asyncio.set_event_loop(loop)
-
+    # На Python 3.14+ необходимо явно создать event loop
+    loop = asyncio.new_event_loop()
+    asyncio.set_event_loop(loop)
     main()
