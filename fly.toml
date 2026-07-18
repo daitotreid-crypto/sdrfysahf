@@ -1,0 +1,8 @@
+app = "rodnoyvpn-partner-bot"
+primary_region = "fra"
+
+[processes]
+  worker = "python bot.py"
+
+[env]
+  PYTHONUNBUFFERED = "1"
